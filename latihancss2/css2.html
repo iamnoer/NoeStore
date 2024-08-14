@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Up Game Modern</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>NoeStore</h1>
+        <div class="topup-section">
+            <h2>Pilih Paket</h2>
+            <div class="packages">
+                <div class="package" data-amount="100" data-price="10">
+                    <h3>100 Coins - $10</h3>
+                </div>
+                <div class="package" data-amount="250" data-price="20">
+                    <h3>250 Coins - $20</h3>
+                </div>
+                <div class="package" data-amount="500" data-price="35">
+                    <h3>500 Coins - $35</h3>
+                </div>
+            </div>
+        </div>
+        <div class="payment-section" id="paymentSection" style="display:none;">
+            <h2>Pilih Metode Pembayaran</h2>
+            <select id="paymentMethod">
+                <option value="creditCard">Kartu Kredit</option>
+                <option value="paypal">PayPal</option>
+                <option value="crypto">Cryptocurrency</option>
+            </select>
+            <button id="confirmButton">Konfirmasi Pembayaran</button>
+        </div>
+        <div class="result-section" id="resultSection" style="display:none;">
+            <h2 id="resultMessage"></h2>
+        </div>
+    </div>
+    <script src="java/js/script.js"></script>
+</body>
+</html>
