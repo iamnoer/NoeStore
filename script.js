@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (username !== 'noer' || password !== '1234') {
             //  'Invalid username or password.';
-            alert('username dan password salah.');
+            alert('username dan password salah  .');
             return;
         }
     
